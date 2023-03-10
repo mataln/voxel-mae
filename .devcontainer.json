@@ -1,0 +1,7 @@
+{
+    "image": "mmdetection3d",
+    "runArgs": [
+        "--gpus",
+        "all"
+    ]
+}
