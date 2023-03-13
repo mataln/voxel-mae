@@ -1,4 +1,4 @@
-ARG PYTORCH="1.9.0"
+ARG PYTORCH="1.9.1"
 ARG CUDA="11.1"
 ARG CUDNN="8"
 
@@ -32,7 +32,7 @@ RUN apt-get update && apt-get install -y \
     git 
 
 # Install MMCV, MMDetection and MMSegmentation
-RUN pip install mmcv-full==1.4.0 -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.9.0/index.html
+RUN pip install mmcv-full==1.4.0 -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.9.1/index.html
 RUN pip install mmdet==2.14.0
 RUN pip install mmsegmentation==0.14.1
 
